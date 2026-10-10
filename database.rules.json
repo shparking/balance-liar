@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "rooms": {
+      ".read": true,
+      ".write": true
+    },
+    "yutRooms": {
+      ".read": true,
+      ".write": true
+    },
+    "blRooms": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

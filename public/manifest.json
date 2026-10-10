@@ -1,0 +1,17 @@
+{
+  "name": "밸런스 & 라이어",
+  "short_name": "밸런스&라이어",
+  "description": "친구들과 폰으로 하는 밸런스 게임 · 라이어 게임",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f4f6",
+  "theme_color": "#7c3aed",
+  "lang": "ko",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
