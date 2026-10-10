@@ -47,7 +47,8 @@ function useTheme() {
       const saved = localStorage.getItem('theme')
       if (saved === 'light' || saved === 'dark') return saved
     } catch {}
-    return window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+    // 기본은 밤 파티 테마(어두운 화면). 밝은 화면은 상단 버튼으로
+    return 'dark'
   })
   useEffect(() => {
     document.documentElement.dataset.theme = theme
@@ -877,16 +878,18 @@ export default function App() {
       {!room && (
         <>
           <div className="hero">
-            <h1>
-              <span className="hero-emo" aria-hidden>
+            <div className="logo">
+              <span className="logo-emo" aria-hidden>
                 ⚖️
               </span>
-              밸런스 & 라이어
-              <span className="hero-emo" aria-hidden>
+              <span className="logo-text">
+                밸런스<em>&</em>라이어
+              </span>
+              <span className="logo-emo" aria-hidden>
                 🤥
               </span>
-            </h1>
-            <p>친구들과 폰으로 하는 밸런스 게임 · 라이어 게임. 이름을 정하고 방을 만들거나, 아래 목록에서 친구 방에 들어가세요.</p>
+            </div>
+            <p>둘 중 하나를 고르고, 거짓말쟁이를 찾아라! 친구들과 각자 폰으로 하는 술자리 게임이에요.</p>
           </div>
 
           <div className="card card-pad stack">
