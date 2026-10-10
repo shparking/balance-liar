@@ -889,7 +889,7 @@ export default function App() {
                 🤥
               </span>
             </div>
-            <p>둘 중 하나를 고르고, 거짓말쟁이를 찾아라! 친구들과 각자 폰으로 하는 술자리 게임이에요.</p>
+            <p>둘 중 하나를 고르고, 거짓말쟁이를 찾아라!</p>
           </div>
 
           <div className="card card-pad stack">

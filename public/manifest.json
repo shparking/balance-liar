@@ -1,7 +1,6 @@
 {
   "name": "밸런스 & 라이어",
   "short_name": "밸런스&라이어",
-  "description": "친구들과 폰으로 하는 밸런스 게임 · 라이어 게임",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
